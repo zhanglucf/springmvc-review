@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 
-//拦截器类：拦截用户的请求。
 public class MyInterceptor1 implements HandlerInterceptor {
 
 
