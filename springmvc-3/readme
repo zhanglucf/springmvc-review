@@ -1,0 +1,16 @@
+这个项目主要学习控制器返回数据相关知识点
+
+没有声明注解驱动:<mvc:annotation-driven/>时，消息转换器默认只有四个实现类
+ByteArrayHttpMessageConverter
+StringHttpMessageConverter
+SourceHttpMessageConverter
+AllEncompassingFormHttpMessageConverter
+声明注解驱动后，默认实现增加到八个
+org.springframework.http.converter.ByteArrayHttpMessageConverter,
+org.springframework.http.converter.StringHttpMessageConverter,
+org.springframework.http.converter.xml.SourceHttpMessageConverter,
+org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter,
+org.springframework.http.converter.ResourceHttpMessageConverter,
+org.springframework.http.converter.ResourceRegionHttpMessageConverter,
+org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter,
+org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
