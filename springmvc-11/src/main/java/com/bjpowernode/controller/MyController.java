@@ -22,6 +22,7 @@ public class MyController {
         mv.addObject("myname",name);
         mv.addObject("myage",age);
         mv.setViewName("show");
+        int a = 1/0;
         return mv;
     }
 
