@@ -15,8 +15,7 @@ public class MyController {
     public ModelAndView doSome(){
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("msg","这是springmvc的第一个项目！");
-//        modelAndView.setViewName("/hello.jsp");
-        modelAndView.setViewName("hello2");
+        modelAndView.setViewName("hello");
         return modelAndView;
     }
 }

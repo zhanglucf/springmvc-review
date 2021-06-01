@@ -8,11 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>hello</title>
 </head>
 <body>
     <p>
-        <h3>WEB-INF</h3>
+        <h3>hello</h3>
         <h3>msg:${msg}</h3>
     </p>
 </body>
