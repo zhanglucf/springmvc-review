@@ -31,9 +31,9 @@ public class MyController {
         mv.addObject("msg","欢迎使用springmvc做web开发");
         mv.addObject("fun","执行的是doSome方法");
         //显示转发
-        //mv.setViewName("forward:/WEB-INF/view/show.jsp");
+        mv.setViewName("forward:/WEB-INF/view/show.jsp");
 
-        mv.setViewName("forward:/hello.jsp");
+//        mv.setViewName("forward:/hello.jsp");
         return mv;
     }
 
@@ -60,11 +60,11 @@ public class MyController {
         mv.addObject("myname",name);
         mv.addObject("myage",age);
         //重定向
-        //mv.setViewName("redirect:/hello.jsp");
-        //http://localhost:8080/ch08_forard_redirect/hello.jsp?myname=lisi&myage=22
+//        mv.setViewName("redirect:/hello.jsp");
+//        http://localhost:8080/ch08_forard_redirect/hello.jsp?myname=lisi&myage=22
 
         //重定向不能访问/WEB-INF资源
-        mv.setViewName("redirect:/WEB-INF/view/show.jsp");
+//        mv.setViewName("redirect:/WEB-INF/view/show.jsp");
         return mv;
     }
 

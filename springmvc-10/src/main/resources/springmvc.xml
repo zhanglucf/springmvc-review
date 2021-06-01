@@ -28,7 +28,7 @@
             -->
             <mvc:mapping path="/**"/>
             <!--声明拦截器对象-->
-            <bean class="com.bjpowernode.handler.MyInterceptor1" />
+            <bean class="com.bjpowernode.handler.MyInterceptor" />
         </mvc:interceptor>
     </mvc:interceptors>
 
